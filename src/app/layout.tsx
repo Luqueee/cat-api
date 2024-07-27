@@ -22,6 +22,7 @@ export default function RootLayout({
                 {children}
                 <a
                     href="#top"
+                    aria-label="Back top top"
                     className=" fixed group hover:border-red-500 border-transparent border-4 transition-all duration-300 z-50 bg-white text-black p-4 rounded-full bottom-4 right-4">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -39,6 +40,7 @@ export default function RootLayout({
                         <path d="M18 11l-6 -6" />
                         <path d="M6 11l6 -6" />
                     </svg>
+                    <span className="sr-only">Back to top</span>
                 </a>
             </body>
         </html>

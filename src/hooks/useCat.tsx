@@ -19,5 +19,6 @@ export function useFetchingCats() {
     useEffect(() => {
         fetchCats();
     }, []);
+
     return { data, fetchCats };
 }
