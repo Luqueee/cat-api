@@ -10,6 +10,9 @@ export function useFetchingCats() {
             )
             .then((response) => {
                 setData(response.data);
+            })
+            .catch((error) => {
+                console.error('Error fetching data');
             });
     };
 
