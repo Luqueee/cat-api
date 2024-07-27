@@ -7,9 +7,6 @@ const nextConfig = {
                 hostname: '**',
             },
         ],
-
-        disableStaticImages: true,
-        minimumCacheTTL: 0,
     },
 };
 
